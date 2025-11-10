@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.svg">
+</head>
+
+<body>
+
+    <div class="profile">
+        <img src="foto.jpg" alt="Profile Picture">
+        <h1> Aquiles Gomes de Oliveira </h1>
+        <h2> Aluno Senai </h2>
+        <p> Bem vindo a minha pagina! </p>
+
+
+        <div class="links">
+            <a href="#" class="btn">instagram</a>
+            <a href="#" class="btn">Tiktok</a>
+            <button class="btn" onclick="mostrarMensagem()">Clique aqui</button>
+            <p id="mensagem"></p>
+            <script>
+                function mostrarMensagem() { document.getElementById("mensagem").innerText="Billie Jean is not my lover"; }
+            </script>
+        </div>
+    </div>
+</body>
+</html>
